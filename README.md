@@ -48,10 +48,6 @@ Fonts:
 
 Icons:
  - Iconic font (https://iconmonstr.com/iconicfont/)
-
-Stock Photos and Graphics:
- - Unsplash.com (https://unsplash.com/)
- - gratisography (https://gratisography.com/)
  
 Javascript Files:
 
@@ -64,7 +60,7 @@ Javascript Files:
  - Masonry (http://masonry.desandro.com/)
  - Imagesloaded (https://imagesloaded.desandro.com/)
  - Parallax.js (http://pixelcog.github.io/parallax.js/)
- - Slick Slider (http://kenwheeler.github.io/slick/)
+
 
 
 
