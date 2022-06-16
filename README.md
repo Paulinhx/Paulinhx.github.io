@@ -10,7 +10,18 @@ This is a clean, beautiful, minimal and responsive portfolio that I don't own, p
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Paulinhx)
 
 
-##LICENSE:
+## Features
+- Responsive
+- Modern Design
+- Clean Animations
+- Easy to use
+
+
+## Thanks
+If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:paul@hylematiere.com).
+
+
+## LICENSE:
 
 Contents and final design by Paulinhx for Digital Career Institute - MAT -Presentation in May 2021
 
@@ -25,20 +36,9 @@ both personal and commercial projects.
 [![forthebadge cc-0](http://ForTheBadge.com/images/badges/cc-0.svg)](http://ForTheBadge.com)
 
 
-If you created something awesome and want to contribute then feel free to open an [pull request]
+If you created something awesome and want to contribute then feel free to open a [pull request]
 
-## Features
-- Responsive
-- Modern Design
-- Clean Animations
-- Easy to use
-
-
-## Thanks
-If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:paul@hylematiere.com).
-
-
-SOURCES AND CREDITS:
+## SOURCES AND CREDITS:
 
 I've used the following resources as listed.
 
