@@ -9,8 +9,6 @@ I've created this student project in may 2021 for my final project presentation 
 # This is a clean, beautiful, minimal and responsive portfolio that I don't own, please see the LICENSE SECTION at the end of the page!
 
 
-# Contents and Design by Paulinhx for Digital Career Institute - MAT -Presentation in May 2021
-
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
@@ -18,6 +16,8 @@ I've created this student project in may 2021 for my final project presentation 
 
 
 LICENSE:
+
+Contents and final design by Paulinhx for Digital Career Institute - MAT -Presentation in May 2021
 
 This free resource is provided by Styleshout.com and is free to use in 
 both personal and commercial projects.
