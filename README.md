@@ -21,7 +21,7 @@ This is a clean, beautiful, minimal and responsive portfolio that I don't own, p
 If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:paul@hylematiere.com).
 
 
-## LICENSE:
+## License
 
 Contents and final design by Paulinhx for Digital Career Institute - MAT -Presentation in May 2021
 
@@ -38,7 +38,7 @@ both personal and commercial projects.
 
 If you created something awesome and want to contribute then feel free to open a [pull request]
 
-## SOURCES AND CREDITS:
+## Sources and credits
 
 I've used the following resources as listed.
 
