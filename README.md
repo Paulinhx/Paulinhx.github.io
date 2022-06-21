@@ -6,7 +6,7 @@ This is a clean, beautiful, minimal and responsive portfolio that I don't own, p
 
 ## Preview
 
-https://paulinhx.github.io/
+Online responsive website here: https://paulinhx.github.io/
 
 
 ![Portfolio-Paulinhx](https://user-images.githubusercontent.com/90310689/174113743-f8d65ced-0cbd-4092-8b01-f0f94ad80bb1.png)
