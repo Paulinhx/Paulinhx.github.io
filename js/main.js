@@ -27,7 +27,7 @@
         $("html").addClass('ss-preload');
 
         $WIN.on('load', function() {
-
+        console.log(emailjs)
             // force page scroll position to top at page refresh
             // $('html, body').animate({ scrollTop: 0 }, 'normal');
 
@@ -345,8 +345,26 @@
             submitHandler: function(form) {
     
                 var sLoader = $('.submit-loader');
-    
-                $.ajax({
+
+              emailjs.sendForm("service_os4m14p","template_uic6xfe",form,"Gp0z6Gq58XZd0GF5M")
+              .then(function(response){
+                console.log(response) 
+                if (response.status===200){
+                    $(".message-success").fadeIn()
+                    $('.message-success').html("You email has been sent successfully.");
+
+                } else {
+                    sLoader.slideUp("slow"); 
+                        $(".message-warning").fadeIn()
+                        $('.message-warning').html("Something went wrong. Please try again.");
+                        $('.message-warning').slideDown("slow");
+                }
+              })
+
+
+
+
+                /* $.ajax({
     
                     type: "POST",
                     url: "inc/sendEmail.php",
@@ -381,7 +399,7 @@
     
                     }
     
-                });
+                }); */
             }
     
         });
