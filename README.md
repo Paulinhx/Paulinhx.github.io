@@ -2,7 +2,7 @@
 # Welcome to my first ever project created with HTML5, CSS3 and Javascript 
 
 This is a student project created for the orientation program of Digital Carreer Institute, Berlin in may 2021.
-This is a clean, beautiful, minimal and responsive portfolio that I don't own, please see the license section at the end of the page!
+This is a clean, beautiful, minimal and responsive portfolio template, please see the license section at the end of the page!
 
 ## Preview
 
@@ -31,7 +31,7 @@ If you like this portfolio template don't forget give it a ⭐
 
 Contents and final design by Paulinhx for Digital Career Institute - MAT -Presentation in May 2021
 
-This free resource is provided by Styleshout.com and is free to use in 
+This free resource template is provided by Styleshout.com and is free to use in 
 both personal and commercial projects.
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
