@@ -1,8 +1,8 @@
 
 # Welcome to my first ever project created with HTML5, CSS3 and Javascript 
 
-This is a student project created for the orientation program of Digital Carreer Institute, Berlin in may 2021.
-This is a clean, beautiful, minimal and responsive portfolio template, please see the license section at the end of the page!
+This is a student project created in may 2021 and updated in february 2025.
+A clean, beautiful, minimal and responsive portfolio template.
 
 ## Preview
 
