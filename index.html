@@ -46,7 +46,7 @@
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                 <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
                 <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li>
+                <!--<li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li>-->
                 <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
             </ul>
         </nav>
@@ -73,7 +73,6 @@
                     Adishatz, it's Paul! </br>
                     Cybersecurity Analyst & Software Engineer </br>
                     Specializing in OSINT, Ethical Hacking & Sustainability</br>
-                   💡 Always open to collaborations and knowledge-sharing!</br>
                 </h1>
 
                 <div class="home-content__buttons">
@@ -686,7 +685,7 @@
 
     <!-- blog
     ================================================== -->
-    <section id="blog" class="s-blog target-section">
+    <!--<section id="blog" class="s-blog target-section">
 
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full">
@@ -738,48 +737,50 @@
     
                 </div> <!-- end blog-list -->
 
-            </div> <!-- end col-full -->
-        </div> <!-- end blog-content -->
+           <!-- </div> <!-- end col-full -->
+    <!--    </div> <!-- end blog-content -->
 
-    </section> <!-- end s-blog -->
+   <!-- </section> --> <!-- end s-blog -->
 
 
     <!-- s-stats
     ================================================== -->
-    <section id="stats" class="s-stats">
-        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+   <section id="stats" class="s-stats">
+    <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
 
-            <div class="col-block stats__col ">
-                <div class="stats__count">
-                    5850
-                </div>
-                <h4>Waves Surfed</h4>
+        <div class="col-block stats__col">
+            <div class="stats__count">
+                3200+
             </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">
-                    6802
-                </div>
-                <h4>Cups of Tea</h4>
-            </div>
-            <div class="col-block stats__col stats__col--highlight">
-                <div class="stats__upsign">
-                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-                <div class="stats__count">
-                    269
-                </div>
-                <h4>Projects Completed</h4>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">
-                    258
-                </div>
-                <h4>Construction Sites</h4> 
-            </div>
-
+            <h4>Security Logs Reviewed</h4>
         </div>
-    </section> <!-- end s-stats -->
 
+        <div class="col-block stats__col">
+            <div class="stats__count">
+                1200 kg
+            </div>
+            <h4>CO₂ Emissions Reduced</h4>
+        </div>
+
+        <div class="col-block stats__col stats__col--highlight">
+            <div class="stats__upsign">
+                <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+            </div>
+            <div class="stats__count">
+                75+
+            </div>
+            <h4>Systems Secured with Green Hosting</h4>
+        </div>
+
+        <div class="col-block stats__col">
+            <div class="stats__count">
+                80%
+            </div>
+            <h4>Recycled or Sustainable Materials Used</h4> 
+        </div>
+
+    </div>
+</section> <!-- end s-stats --> 
 
     <!-- s-stats
     ================================================== -->
@@ -797,40 +798,21 @@
         </div>
 <div class="row contact__main">
     <div class="col-eight tab-full contact__form">
-        <form id="contactForm">
-            <fieldset>
-                <div class="form-field">
-                    <input name="from_name" type="text" id="contactName" placeholder="Name" minlength="2" required aria-required="true" class="full-width">
-                </div>
-                <div class="form-field">
-                    <input name="from_email" type="email" id="contactEmail" placeholder="Email" required aria-required="true" class="full-width">
-                </div>
-                <div class="form-field">
-                    <input name="from_subject" type="text" id="contactSubject" placeholder="Subject" class="full-width">
-                </div>
-                <div class="form-field">
-                    <textarea name="message" id="contactMessage" placeholder="Message" rows="10" cols="50" required aria-required="true" class="full-width"></textarea>
-                </div>
-                <div class="form-field">
-                    <button type="submit" class="full-width btn--primary">Submit</button>
-                    <div class="submit-loader">
-                        <div class="text-loader">Sending...</div>
-                        <div class="s-loader">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                    </div>
-                </div>
-            </fieldset>
-        </form>
+        <!-- Game Section -->
+        <h2 class="h06">Guess the Number Game</h2>
+        <p class="h06">Try to guess the number between 1 and 100!</p>
 
-        <!-- Contact Warning -->
+        <div id="game">
+            <input type="number" id="guessInput" placeholder="Enter your guess" class="full-width form-field">
+            <button id="submitGuess" class="full-width btn--primary">Submit Guess</button>
+            <div id="resultMessage" class="form-field"></div>
+            <div id="attemptsMessage" class="form-field"></div>
+        </div>
+
         <div class="message-warning" style="display: none;">
             Something went wrong. Please try again.
         </div> 
         
-        <!-- Contact Success -->
         <div class="message-success" style="display: none;">
             Your message was sent, thank you!<br>
         </div>
@@ -851,11 +833,26 @@
         window.location.href = "mailto:" + atob("cGF1bC5kZXNiYXRzQHByb3Rvbi5tZQ==");
     });
 
-    // Fake Form Submission (No Backend)
-    document.getElementById("contactForm").addEventListener("submit", function(event) {
-        event.preventDefault(); // Stop actual form submission
-        document.querySelector(".submit-loader").style.display = "none";
-        document.querySelector(".message-success").style.display = "block";
+    // Game Logic
+    let attempts = 0;
+    const targetNumber = Math.floor(Math.random() * 100) + 1;
+
+    document.getElementById("submitGuess").addEventListener("click", function() {
+        const userGuess = parseInt(document.getElementById("guessInput").value);
+        attempts++;
+
+        if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
+            document.getElementById("resultMessage").textContent = "Please enter a valid number between 1 and 100.";
+        } else if (userGuess === targetNumber) {
+            document.getElementById("resultMessage").textContent = "Congratulations! You guessed the number!";
+            document.getElementById("attemptsMessage").textContent = `It took you ${attempts} attempts.`;
+        } else if (userGuess < targetNumber) {
+            document.getElementById("resultMessage").textContent = "Too low! Try again.";
+        } else {
+            document.getElementById("resultMessage").textContent = "Too high! Try again.";
+        }
+
+        document.getElementById("attemptsMessage").textContent = `Attempts: ${attempts}`;
     });
 </script>
 
