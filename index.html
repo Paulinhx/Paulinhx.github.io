@@ -73,7 +73,6 @@
                     Adishatz, it's Paul! </br>
                     Cybersecurity Analyst & Software Engineer </br>
                     Specializing in OSINT, Ethical Hacking & Sustainability</br>
-                    Passionate about Threat Detection & Defense, Risk & Compliance & Digital Health.</br>
                    💡 Always open to collaborations and knowledge-sharing!</br>
                 </h1>
 
@@ -122,20 +121,8 @@
 
                 <p>
                   𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐞𝐧𝐠𝐢𝐧𝐞𝐞𝐫 𝐭𝐮𝐫𝐧𝐞𝐝 𝐜𝐲𝐛𝐞𝐫𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐚𝐧𝐚𝐥𝐲𝐬𝐭, combining technical expertise with eco-conscious problem-solving to secure the digital landscape. My unique transition from design and construction management to software engineering and cybersecurity has shaped a systems-driven perspective, empowering me to effectively mitigate risks and optimize security strategies.
-
                  Currently working at webeet.io studio, I’m diving into cutting-edge cybersecurity challenges with a talented team focused on innovation and security.
-
-𝐂𝐲𝐛𝐞𝐫𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐄𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞:
-🛡️ Threat Detection | 🌐 Network Security
-🕵️‍♂️ Digital Forensics | 🔍 Vulnerability Assessment
-📝 Consultant ISO 27001 | GDPR | EU Ai Act
-
-𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐒𝐤𝐢𝐥𝐥𝐬:
-🐍 Python | ✨ JavaScript | 🔢 SQL | ⚡ PowerShell
-🐧 Kali Linux | 🔍 Nmap | 📶 Wireshark 
-☁️ AWS | 🛠️ DevSecOps
-
-                At the crossroads of technology, sustainability, and collaboration, I am committed to driving innovation while championing green practices.                   
+                 At the crossroads of technology, sustainability, and collaboration, I am committed to driving innovation while championing green practices.                   
                 </p>
             </div>
 
@@ -808,62 +795,70 @@
                 <p class="lead">I'll be happy to talk about your project!</p>
             </div>
         </div>
-
-        <div class="row contact__main">
-            <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="">
-                    <fieldset>
-    
-                    <div class="form-field">
-                        <input name="from_name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="from_email" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="from_subject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
+<div class="row contact__main">
+    <div class="col-eight tab-full contact__form">
+        <form id="contactForm">
+            <fieldset>
+                <div class="form-field">
+                    <input name="from_name" type="text" id="contactName" placeholder="Name" minlength="2" required aria-required="true" class="full-width">
+                </div>
+                <div class="form-field">
+                    <input name="from_email" type="email" id="contactEmail" placeholder="Email" required aria-required="true" class="full-width">
+                </div>
+                <div class="form-field">
+                    <input name="from_subject" type="text" id="contactSubject" placeholder="Subject" class="full-width">
+                </div>
+                <div class="form-field">
+                    <textarea name="message" id="contactMessage" placeholder="Message" rows="10" cols="50" required aria-required="true" class="full-width"></textarea>
+                </div>
+                <div class="form-field">
+                    <button type="submit" class="full-width btn--primary">Submit</button>
+                    <div class="submit-loader">
+                        <div class="text-loader">Sending...</div>
+                        <div class="s-loader">
+                            <div class="bounce1"></div>
+                            <div class="bounce2"></div>
+                            <div class="bounce3"></div>
                         </div>
                     </div>
-    
-                    </fieldset>
-                </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div> 
-            
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
                 </div>
-                        
-            </div>
-            <div class="col-four tab-full contact__infos">
-                <h4 class="h06">Email</h4>
-                <p>paul.desbats@proton.me<br>
-                </p>
+            </fieldset>
+        </form>
 
-                <h4 class="h06">Address</h4>
-                <p>
-                WOLRDWIDE<br>
-                </p>
-            </div>
-
+        <!-- Contact Warning -->
+        <div class="message-warning" style="display: none;">
+            Something went wrong. Please try again.
+        </div> 
+        
+        <!-- Contact Success -->
+        <div class="message-success" style="display: none;">
+            Your message was sent, thank you!<br>
         </div>
+    </div>
+
+    <div class="col-four tab-full contact__infos">
+        <h4 class="h06">Email</h4>
+        <p><a href="#" id="secureEmail">Click to email</a></p>
+
+        <h4 class="h06">Address</h4>
+        <p>WORLDWIDE</p>
+    </div>
+</div>
+
+<script>
+    // Secure Email Encoding
+    document.getElementById("secureEmail").addEventListener("click", function() {
+        window.location.href = "mailto:" + atob("cGF1bC5kZXNiYXRzQHByb3Rvbi5tZQ==");
+    });
+
+    // Fake Form Submission (No Backend)
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Stop actual form submission
+        document.querySelector(".submit-loader").style.display = "none";
+        document.querySelector(".message-success").style.display = "block";
+    });
+</script>
+
 
     </section> <!-- end s-contact -->
 
