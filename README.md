@@ -1,8 +1,7 @@
 
-# Welcome to my first ever project created with HTML5, CSS3 and Javascript 
+# Professional Portfolio: A Responsive Web Template Built with HTML5, CSS3, and JavaScript
 
-This is a student project created in may 2021 and updated in february 2025.
-A clean, beautiful, minimal and responsive portfolio template.
+This is a polished, minimalist, and fully responsive portfolio template designed using HTML5, CSS3, and JavaScript. Originally created as a student project in May 2021, it has been updated in February 2025 to meet modern web standards. The template features a clean design, offering an optimal user experience across devices and screen sizes. It's perfect for showcasing personal work, skills, and achievements in a professional and aesthetically pleasing manner.
 
 ## Preview
 
