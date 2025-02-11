@@ -24,7 +24,7 @@ Online responsive website here: https://paulinhx.github.io/
 
 
 ## Thanks
-If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:paul@hylematiere.com).
+If you like this portfolio template don't forget give it a ⭐ 
 
 
 ## License
