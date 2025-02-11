@@ -1000,11 +1000,15 @@
                 <div class="copyright">
                     <span>Legal Mentions</span>
                     <span> Website Owner: Paul Desbats</span>
-                    <span>Email: Paul.Desbats@proton.me</span>
+                    <span id="secureEmailFooter">Email:[Click to reveal email]</span>
                     <span>Hosting: GitHub Pages (github.com)</span>
                     <span>Privacy Policy: This website does not collect personal data, use cookies, or track visitors.</span>
-                    
                 </div>
+<script>
+    document.getElementById("secureEmailFooter").addEventListener("click", function() {
+        window.location.href = "mailto:" + atob("cGF1bC5kZXNiYXRzQHByb3Rvbi5tZQ=="); // Base64-encoded email
+    });
+</script>
 
                 <div class="go-top">
                 <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
