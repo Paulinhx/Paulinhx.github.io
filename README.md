@@ -66,8 +66,7 @@ Javascript Files:
 
 **Legal Mentions**
 - Website Owner: Paul Desbats
-- Email: Paul.Desbats@proton.me
-- Hosting: GitHub Pages (github.com)
+- Hosting: Powered by GitHub Pages (github.com)
 - Privacy Policy: This website does not collect personal data, use cookies, or track visitors.
 
 -------------------------------------------------------------------------------------------------------
