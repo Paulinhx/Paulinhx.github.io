@@ -16,13 +16,88 @@
     Meta Tags in HTML: While some security headers are typically set at the server level, 
     you can include certain headers using meta tags in your index.html:
     ================================================== -->
-    <!-- Prevent MIME type sniffing -->
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <!-- Prevent Clickjacking -->
+    <!-- Prevent MIME type sniffing 
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">-->
+    <!-- Prevent Clickjacking 
     <meta http-equiv="X-Frame-Options" content="DENY">
     <!-- XSS Protection -->
-    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <!-- <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self';
+    style-src 'self';
+    img-src 'self' https://your-github-username.github.io data:;
+    font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com;
+    object-src 'none';
+    base-uri 'self';
+    form-action 'self';
+    frame-ancestors 'none';
+    upgrade-insecure-requests;"> -->
+
+     <!-- Security Headers
+    Meta Tags in HTML: While some security headers are typically set at the server level, 
+    you can include certain headers using meta tags in your index.html:
+    ================================================== -->
     
+    <!-- Prevent MIME type sniffing -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <!-- The X-Content-Type-Options header prevents browsers from interpreting files as a different MIME type than what is declared. 
+         This helps mitigate attacks where content is interpreted incorrectly (e.g., JavaScript being treated as a harmless file). -->
+
+    <!-- Prevent Clickjacking -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <!-- The X-Frame-Options header prevents your website from being embedded in an iframe on another domain, which could be used for clickjacking attacks. 
+         Setting this to "DENY" means that the page cannot be embedded at all. -->
+
+    <!-- XSS Protection -->
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <!-- The X-XSS-Protection header enables the browser's built-in Cross-Site Scripting (XSS) protection.
+         When set to "1; mode=block", it tells the browser to block the page from rendering if an XSS attack is detected. -->
+
+    <!-- Content Security Policy (CSP) -->
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self'; 
+    script-src 'self'; 
+    style-src 'self'; 
+    img-src 'self' https://your-github-username.github.io data:; 
+    font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; 
+    object-src 'none'; 
+    base-uri 'self'; 
+    form-action 'self'; 
+    frame-ancestors 'none'; 
+    upgrade-insecure-requests;">
+    <!-- Content Security Policy (CSP) is a powerful security feature that helps prevent various types of attacks such as XSS, 
+         data injection, etc.
+         Here’s a breakdown of the CSP directives:
+         
+         - `default-src 'self'`: Restricts the sources for all content to your own domain (self), 
+            unless overridden by specific directives.
+         
+         - `script-src 'self'`: Only allows scripts from your own domain (self) to be executed. 
+           Prevents inline scripts and malicious external scripts.
+         
+         - `style-src 'self'`: Only allows stylesheets from your domain (self), preventing external or malicious styles.
+         
+         - `img-src 'self' https://your-github-username.github.io data:`: Restricts images to your domain and GitHub server, 
+            allowing inline images via `data:` URIs.
+         
+         - `font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com`: Allows fonts to be loaded from your domain 
+            and Google Fonts.
+         
+         - `object-src 'none'`: Prevents all objects (like Flash or Java applets) from being embedded in the page, 
+            as they are often used in attacks.
+         
+         - `base-uri 'self'`: Ensures that the `<base>` element (which alters the base URL of relative links) 
+            can only point to your own domain.
+         
+         - `form-action 'self'`: Limits where form data can be sent to only your domain (self), preventing form hijacking.
+         
+         - `frame-ancestors 'none'`: Prevents your website from being embedded in any iframe, which blocks clickjacking attacks.
+         
+         - `upgrade-insecure-requests`: Instructs the browser to automatically upgrade all HTTP requests to HTTPS to prevent 
+            mixed content issues. -->
+
 
     <!-- CSS
     ================================================== -->
