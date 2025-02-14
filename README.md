@@ -64,13 +64,13 @@ Javascript Files:
  - Parallax.js (http://pixelcog.github.io/parallax.js/)
 
 
-**Legal Mentions**
+## Legal Mentions
 - Website Owner: Paul Desbats
 - Hosting: Powered by GitHub Pages (github.com)
 - Privacy Policy: This website does not collect personal data, use cookies, or track visitors.
   
 
-**TO DO**
+## TO DO:
 - Install Dependabot
 - Implementing a CSP
 - Add security headers
