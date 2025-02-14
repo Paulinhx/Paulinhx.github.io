@@ -68,6 +68,12 @@ Javascript Files:
 - Website Owner: Paul Desbats
 - Hosting: Powered by GitHub Pages (github.com)
 - Privacy Policy: This website does not collect personal data, use cookies, or track visitors.
+  
+
+**TO DO**
+- Install Dependabot
+- Implementing a CSP
+- Add security headers
 
 -------------------------------------------------------------------------------------------------------
 
