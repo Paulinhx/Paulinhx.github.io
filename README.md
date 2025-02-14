@@ -71,9 +71,10 @@ Javascript Files:
   
 
 ## To Do:
-- Install Dependabot
-- Implementing a CSP
-- Add security headers
+- [ ] Install Dependabot
+- [ ] Implementing a CSP
+- [x] Add security headers
+
 
 -------------------------------------------------------------------------------------------------------
 
