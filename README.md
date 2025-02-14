@@ -29,10 +29,7 @@ If you like this portfolio template don't forget give it a ⭐
 
 ## License
 
-Contents and final design by Paulinhx for Digital Career Institute - MAT -Presentation in May 2021
-
-This free resource template is provided by Styleshout.com and is free to use in 
-both personal and commercial projects.
+This template is based on a free resource originally provided by StyleShout.com, and is free to use for both personal and commercial projects. We have customized the original design to fit our business needs, adding enhanced security features and optimizations to align with our operational requirements.
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 
