@@ -70,7 +70,7 @@ Javascript Files:
 
 ## To Do:
 - [ ] Install Dependabot
-- [ ] Implementing a CSP
+- [x] Implementing a CSP
 - [x] Add security headers
 
 
