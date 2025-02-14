@@ -6,11 +6,23 @@
     <meta charset="utf-8">
     <title>Paul's Portfolio</title>
     <meta name="description" content="Personal Portfolio">
-    <meta name="author" content="Paulinhx on Github">
+    <meta name="author" content="Paul D.">
 
     <!-- mobile specific metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+     <!-- Security Headers
+    Meta Tags in HTML: While some security headers are typically set at the server level, 
+    you can include certain headers using meta tags in your index.html:
+    ================================================== -->
+    <!-- Prevent MIME type sniffing -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <!-- Prevent Clickjacking -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <!-- XSS Protection -->
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    
 
     <!-- CSS
     ================================================== -->
@@ -25,7 +37,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     
 
-    <!-- favicons > FIXED <3
+    <!-- favicons > 
     ================================================== -->
     <link rel='shortcut icon' type='image/favicon' href='./favicon.ico'/>
 
