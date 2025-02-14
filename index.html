@@ -57,16 +57,17 @@
 
     <!-- Content Security Policy (CSP) -->
     <meta http-equiv="Content-Security-Policy" content="
-    default-src 'self'; 
-    script-src 'self'; 
-    style-src 'self'; 
-    img-src 'self' https://Paulinhx.github.io data:; 
-    font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; 
-    object-src 'none'; 
-    base-uri 'self'; 
-    form-action 'self'; 
-    frame-ancestors 'none'; 
-    upgrade-insecure-requests;">
+     default-src 'self'; 
+     script-src 'self' 'unsafe-inline' https://code.jquery.com https://Paulinhx.github.io; 
+     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; 
+     img-src 'self' https://Paulinhx.github.io data:; 
+     font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; 
+     object-src 'none'; 
+     base-uri 'self'; 
+     form-action 'self'; 
+     frame-ancestors 'none'; 
+     upgrade-insecure-requests;">
+
     <!-- Content Security Policy (CSP) is a powerful security feature that helps prevent various types of attacks such as XSS, 
          data injection, etc.
          Here’s a breakdown of the CSP directives:
