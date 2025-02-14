@@ -20,6 +20,7 @@ Online responsive website here: https://paulinhx.github.io/
 - Modern Design
 - Clean Animations
 - Easy to use
+- Secure
 
 
 ## Thanks
