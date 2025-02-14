@@ -70,7 +70,7 @@ Javascript Files:
 - Privacy Policy: This website does not collect personal data, use cookies, or track visitors.
   
 
-## TO DO:
+## To Do:
 - Install Dependabot
 - Implementing a CSP
 - Add security headers
